@@ -1,0 +1,1 @@
+End Boss: 1 Mindwitness and 2 Intellect devourers

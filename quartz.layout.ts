@@ -47,4 +47,17 @@ export const defaultListPageLayout: PageLayout = {
     Component.DesktopOnly(Component.Explorer()),
   ],
   right: [],
-}
+
+};
+
+Component.Explorer({
+  title: "Explorer", // title of the explorer component
+  folderClickBehavior: "collapse", 
+  folderDefaultState: "collapsed",   useSavedState: true,     sortFn: (a, b) => {
+  // default implementation shown later
+  },
+  
+  mapFn: undefined,
+  
+  order: ["filter", "map", "sort"],
+})
